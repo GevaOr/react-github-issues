@@ -1,38 +1,69 @@
 .App {
-  text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item {
+  margin: 0 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main {
+  padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.issues {
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 5px;
+}
+
+.open-issue {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  padding: 5px;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.open-issue:hover {
+  background-color: rgb(250, 250, 250);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.closed-issue {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  padding: 5px;
+  color: gray;
+  background-color: rgb(250, 250, 250);
+  cursor: pointer;
+}
+.issue-lines {
+}
+.issue-top-line {
+}
+.issue-title {
+  font-weight: 600;
+  margin-right: 5px;
+}
+.issue-tags {
+}
+.issue-tag {
+  font-size: 0.8em;
+  margin: 0 5px;
+  padding: 3px 5px;
+  border-radius: 20px;
+}
+.issue-btm-line {
+  color: gray;
+}
+.messages {
+}
+.issue-comments {
+  color: gray;
+}
+.issue-comments:hover {
+  color: gray;
+  text-decoration: none;
+  cursor: pointer;
+}
+.issue-img {
+  margin: 5px;
 }
