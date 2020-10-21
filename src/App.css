@@ -2,7 +2,7 @@
 }
 
 .nav-item {
-  margin: 0 5px;
+  font-size: 0.9em;
 }
 
 main {
@@ -53,6 +53,7 @@ main {
 }
 .issue-btm-line {
   color: gray;
+  font-size: 0.8em;
 }
 .messages {
 }
