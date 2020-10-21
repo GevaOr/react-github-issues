@@ -1,6 +1,3 @@
-.App {
-}
-
 .nav-item {
   font-size: 0.9em;
 }
@@ -35,15 +32,9 @@ main {
   background-color: rgb(250, 250, 250);
   cursor: pointer;
 }
-.issue-lines {
-}
-.issue-top-line {
-}
 .issue-title {
   font-weight: 600;
   margin-right: 5px;
-}
-.issue-tags {
 }
 .issue-tag {
   font-size: 0.8em;
@@ -55,8 +46,7 @@ main {
   color: gray;
   font-size: 0.8em;
 }
-.messages {
-}
+
 .issue-comments {
   color: gray;
 }
